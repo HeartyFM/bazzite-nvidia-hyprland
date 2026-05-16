@@ -8,12 +8,17 @@ image-version: stable
 modules:
   - type: rpm-ostree
     repos:
-      # v0 dependency test: use lionheartp/Hyprland for Fedora 44 compatibility.
+      # Use lionheartp/Hyprland for Fedora 44 compatibility.
       - https://copr.fedorainfracloud.org/coprs/lionheartp/Hyprland/repo/fedora-%OS_VERSION%/lionheartp-Hyprland-fedora-%OS_VERSION%.repo
     install:
-      # v0: prove Hyprland core dependencies resolve on the NVIDIA base.
+      # v1: Hyprland core plus basic session tools.
       - hyprland
       - xdg-desktop-portal-hyprland
+      - waybar
+      - kitty
+      - grim
+      - slurp
+      - wl-clipboard
 
       # Do not install NVIDIA drivers here. They must come from
       # ghcr.io/ublue-os/bazzite-nvidia-open:stable.

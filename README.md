@@ -14,7 +14,7 @@ This first version does not remove Plasma, SDDM, KDE, or base Bazzite packages. 
 
 ## v1 Scope
 
-The current v0 build is a dependency test for Hyprland core. It uses:
+v0 passed in GitHub Actions with Hyprland core using:
 
 ```text
 lionheartp/Hyprland
@@ -22,7 +22,7 @@ lionheartp/Hyprland
 
 The previous attempts with `solopasha/hyprland` failed on Fedora 44 because `aquamarine` required `libdisplay-info.so.2`, while Fedora 44 uses the newer `libdisplay-info` ABI. This v0 switches to `lionheartp/Hyprland`, which is being tested as a Fedora 44-compatible Hyprland COPR.
 
-The purpose of v0 is to prove Hyprland core resolves on top of the official NVIDIA base, not to recreate the full rice yet. If v0 passes, extras will be added back in small batches.
+v1 adds basic session tools: Waybar, Kitty, screenshot tools, and Wayland clipboard support. The goal is still to recover a usable Hyprland session on top of the official NVIDIA base, not to recreate the full rice yet.
 
 ## What This Image Adds
 
