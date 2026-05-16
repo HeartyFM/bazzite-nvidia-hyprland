@@ -24,7 +24,9 @@ The previous attempts with `solopasha/hyprland` failed on Fedora 44 because `aqu
 
 v1 passed in GitHub Actions and added basic session tools: Waybar, Kitty, screenshot tools, and Wayland clipboard support.
 
-v2 adds `playerctl`, `pamixer`, and `gamemode`. `playerctl` supports music and media widgets, `pamixer` supports Waybar and future EWW volume controls, and `gamemode` is included for gaming priority. The goal is still to recover a usable Hyprland session on top of the official NVIDIA base, not to recreate the full rice yet.
+v2 passed in GitHub Actions and added `playerctl`, `pamixer`, and `gamemode`. `playerctl` supports music and media widgets, `pamixer` supports Waybar and future EWW volume controls, and `gamemode` is included for gaming priority.
+
+v3 adds `matugen`, `swww`, and `hyprlock`. `matugen` will be used for dynamic colors from wallpaper, `swww` will be used as the wallpaper daemon, and `hyprlock` is installed for a later lock-screen configuration phase. The goal is still to recover a usable Hyprland session on top of the official NVIDIA base, not to recreate the full rice yet.
 
 ## What This Image Adds
 

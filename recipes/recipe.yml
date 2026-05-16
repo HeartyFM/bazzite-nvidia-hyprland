@@ -11,7 +11,7 @@ modules:
       # Use lionheartp/Hyprland for Fedora 44 compatibility.
       - https://copr.fedorainfracloud.org/coprs/lionheartp/Hyprland/repo/fedora-%OS_VERSION%/lionheartp-Hyprland-fedora-%OS_VERSION%.repo
     install:
-      # v2: Hyprland core, basic session tools, media/audio, and gamemode.
+      # v3: Hyprland core, session tools, media/audio, gamemode, and visuals.
       - hyprland
       - xdg-desktop-portal-hyprland
       - waybar
@@ -22,6 +22,9 @@ modules:
       - playerctl
       - pamixer
       - gamemode
+      - matugen
+      - swww
+      - hyprlock
 
       # Do not install NVIDIA drivers here. They must come from
       # ghcr.io/ublue-os/bazzite-nvidia-open:stable.
