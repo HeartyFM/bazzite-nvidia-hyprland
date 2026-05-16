@@ -1,5 +1,11 @@
 # Bazzite NVIDIA Hyprland Image
 
+## Current Stable Checkpoint
+
+v4 is working on the Surface Laptop Studio 2: NVIDIA and Hyprland both work on `ghcr.io/heartyfm/bazzite-nvidia-hyprland:latest`.
+
+`swww` is still pending because it is not available in the current enabled repositories. See [docs/checkpoint-2026-05-16-hyprland-nvidia-working.md](docs/checkpoint-2026-05-16-hyprland-nvidia-working.md) for the full checkpoint and next steps.
+
 This project defines a custom BlueBuild image based on the official Bazzite NVIDIA image:
 
 ```text
