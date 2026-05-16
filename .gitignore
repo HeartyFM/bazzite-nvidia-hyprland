@@ -1,0 +1,7 @@
+cosign.key
+*.key
+.env
+.env.*
+secrets/
+*.pem
+*.p12

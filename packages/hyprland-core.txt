@@ -1,0 +1,15 @@
+hyprland
+xdg-desktop-portal-hyprland
+waybar
+kitty
+grim
+slurp
+wl-clipboard
+playerctl
+pamixer
+gamemode
+matugen
+swww
+hyprlock
+rofi
+Thunar
