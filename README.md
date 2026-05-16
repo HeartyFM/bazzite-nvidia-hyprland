@@ -28,7 +28,9 @@ v2 passed in GitHub Actions and added `playerctl`, `pamixer`, and `gamemode`. `p
 
 v3 failed because `swww` does not exist in the currently enabled repositories.
 
-v3.1 tests `matugen` and `hyprlock` without `swww`. `matugen` will be used for dynamic colors from wallpaper, and `hyprlock` is installed for a later lock-screen configuration phase. `swww` remains pending and will be resolved later with another repository, a separate build path, or an alternative such as `hyprpaper`. The goal is still to recover a usable Hyprland session on top of the official NVIDIA base, not to recreate the full rice yet.
+v3.1 passed in GitHub Actions with `matugen` and `hyprlock` without `swww`. `matugen` will be used for dynamic colors from wallpaper, and `hyprlock` is installed for a later lock-screen configuration phase.
+
+v4 adds `rofi` as a basic launcher and `Thunar` as a graphical file manager. `swww` remains pending and will be resolved later with another repository, a separate build path, or an alternative such as `hyprpaper`. The goal is still to recover a usable Hyprland session on top of the official NVIDIA base, not to recreate the full rice yet.
 
 ## What This Image Adds
 
