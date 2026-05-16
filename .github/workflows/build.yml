@@ -22,10 +22,12 @@ jobs:
     steps:
       - name: Build image with BlueBuild
         uses: blue-build/github-action@v1.11
+        env:
+          COSIGN_PASSWORD: ""
         with:
           recipe: recipe.yml
           registry: ghcr.io
-          registry_namespace: diegoduartemorales23
+          registry_namespace: HeartyFM
           registry_token: ${{ github.token }}
           pr_event_number: ${{ github.event.number }}
           # BlueBuild currently requires this input for signed images.
