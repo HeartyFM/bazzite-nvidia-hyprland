@@ -26,6 +26,7 @@ modules:
       - hyprlock
       - rofi
       - Thunar
+      - hyprpaper
 
       # Do not install NVIDIA drivers here. They must come from
       # ghcr.io/ublue-os/bazzite-nvidia-open:stable.
