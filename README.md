@@ -22,7 +22,9 @@ lionheartp/Hyprland
 
 The previous attempts with `solopasha/hyprland` failed on Fedora 44 because `aquamarine` required `libdisplay-info.so.2`, while Fedora 44 uses the newer `libdisplay-info` ABI. This v0 switches to `lionheartp/Hyprland`, which is being tested as a Fedora 44-compatible Hyprland COPR.
 
-v1 adds basic session tools: Waybar, Kitty, screenshot tools, and Wayland clipboard support. The goal is still to recover a usable Hyprland session on top of the official NVIDIA base, not to recreate the full rice yet.
+v1 passed in GitHub Actions and added basic session tools: Waybar, Kitty, screenshot tools, and Wayland clipboard support.
+
+v2 adds `playerctl`, `pamixer`, and `gamemode`. `playerctl` supports music and media widgets, `pamixer` supports Waybar and future EWW volume controls, and `gamemode` is included for gaming priority. The goal is still to recover a usable Hyprland session on top of the official NVIDIA base, not to recreate the full rice yet.
 
 ## What This Image Adds
 
