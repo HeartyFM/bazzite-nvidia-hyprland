@@ -17,11 +17,10 @@ This first version does not remove Plasma, SDDM, KDE, or base Bazzite packages. 
 The current v0 build is a dependency test for Hyprland core. It uses:
 
 ```text
-solopasha/hyprland
-tofik/sway
+lionheartp/Hyprland
 ```
 
-The previous v1 attempt failed because `aquamarine` required `libdisplay-info.so.2`, which was not available from the base repositories plus `solopasha/hyprland` alone. The `tofik/sway` COPR is added to test whether it provides the newer wlroots/display stack dependencies needed by Hyprland.
+The previous attempts with `solopasha/hyprland` failed on Fedora 44 because `aquamarine` required `libdisplay-info.so.2`, while Fedora 44 uses the newer `libdisplay-info` ABI. This v0 switches to `lionheartp/Hyprland`, which is being tested as a Fedora 44-compatible Hyprland COPR.
 
 The purpose of v0 is to prove Hyprland core resolves on top of the official NVIDIA base, not to recreate the full rice yet. If v0 passes, extras will be added back in small batches.
 
